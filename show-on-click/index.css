@@ -1,0 +1,29 @@
+.example {
+    display: none;
+}
+
+label {
+    padding: 10px;
+    background: #4b4b4b;
+    color: white;
+    border-radius: 2px;
+    font-size: 32px;
+    display: inline-block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked + .example {
+    display: block;
+}
+
+/* Exemple page styles */
+
+
+body {
+    padding: 50px;
+}
