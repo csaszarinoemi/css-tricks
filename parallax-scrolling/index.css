@@ -1,7 +1,10 @@
-div[class^='parallax']{
+img[class^='parallax']{
 
     width: 100%;
-    height: 700px;
+    min-height: 700px;
+    position: relative;
+    opacity: 0.70;
+    filter: grayscale(30%);
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -12,6 +15,7 @@ div[class^='parallax']{
 
 .parallax_1 {
     background-image: url("./photos/wallpapertip_siberia-wallpaper_376925.jpg");
+
 }
 
 .parallax_2 {
@@ -24,4 +28,13 @@ div[class^='parallax']{
 
 .parallax_4 {
     background-image: url("./photos/Baikal-Summer-1.jpg");
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 30px 80px;
+    background-color: #f4f4f4;
+    color: #666;
+    line-height: 1.5;
 }
