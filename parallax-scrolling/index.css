@@ -1,0 +1,27 @@
+div[class^='parallax']{
+
+    width: 100%;
+    height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax_1 {
+    background-image: url("./photos/wallpapertip_siberia-wallpaper_376925.jpg");
+}
+
+.parallax_2 {
+    background-image: url("./photos/diveevo-140542_1280.jpg");
+}
+
+.parallax_3 {
+    background-image: url("./photos/russia-1199331_1280.jpg");
+}
+
+.parallax_4 {
+    background-image: url("./photos/Baikal-Summer-1.jpg");
+}
